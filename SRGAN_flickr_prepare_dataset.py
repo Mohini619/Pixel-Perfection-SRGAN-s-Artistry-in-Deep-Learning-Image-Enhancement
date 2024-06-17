@@ -1,9 +1,4 @@
-"""
-Dataset from: http://press.liacs.nl/mirflickr/mirdownload.html
-Read high res. original images and save lower versions to be used for SRGAN.
-Here, we are resizing them to 128x128 that will be  used as HR images and 
-32x32 that will be used as LR images
-"""
+
 import cv2
 import numpy as np
 import os
